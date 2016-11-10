@@ -10,6 +10,8 @@ Get:
 
 returns: p1
 
+# Control panel
+
 |p1|function|
 |---|---|
 |0|yellow light

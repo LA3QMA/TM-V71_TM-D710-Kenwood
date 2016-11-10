@@ -7,8 +7,8 @@ Get radio firmware:
 Returns: firmware
 
 ||Firmware|
-|---|---|
 |p1|function|
+|---|---|
 |0|main unit
 |1|Control panel
 |2|TNC
