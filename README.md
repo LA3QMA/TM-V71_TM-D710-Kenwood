@@ -7,7 +7,7 @@ Thanks to: LA8OKA, W6GPS and WM8S for helping.
 
 Based on rev.11 02 april 2009
 
-# Please report any errors as this has been converted from my old documents.
+* Please report any errors as this has been converted from my old documents.
 https://groups.yahoo.com/neo/groups/TM-D710_TM-V71
 
 Available Control commands:
