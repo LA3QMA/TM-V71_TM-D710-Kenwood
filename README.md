@@ -58,11 +58,11 @@ Available Control commands:
 
 - GM	[Radio/GPS - TMD710G](/commands/GM.md) this needs verification
 
-- TN	[TNC status](/commands/TN.md) Only on control head
+- TN	[TNC status](/commands/TN.md) Only when connected to the control head
 
 - AS	[Reverse](/commands/AS.md)
 
-- CS	[Callsign](/commands/CS.md) Only on control head
+- CS	[Callsign](/commands/CS.md) Only when connected to the control head
 
 - SR	[Reset](/commands/SR.md)
 
