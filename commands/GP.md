@@ -1,6 +1,6 @@
 __Set/Read internal GPS mode__
 
-# needs verification - TM-D710G only?
+TM-D710G only?
 
 Set GPS mode:
 

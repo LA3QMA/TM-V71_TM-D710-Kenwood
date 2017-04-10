@@ -11,7 +11,37 @@ __Please report any errors as this has been converted from my old documents.__
 
 https://groups.yahoo.com/neo/groups/TM-D710_TM-V71
 
-Available Control commands:
+Available control commands for the **display unit**:
+
+- BL	[Backlight status](/commands/BL.md) (Not TH-D710G)
+
+- TN	[TNC status](/commands/TN.md)
+
+- CS	[Callsign](/commands/CS.md)
+
+- TC	[TNC controll mode](/commands/TC.md)
+
+- TS	[TNC controll mode 2](/commands/TS.md)
+
+- ID	[Radio Model](/commands/ID.md)
+
+- AE	[Display serialnumber](/commands/AE.md) * Does only display giberish *
+
+- TY	[Display Type](/commands/TY.md)
+
+- RT	[Time](/commands/RT.md)
+
+- GT	[Internal GPS](/commands/GT.md) Returns N if internal GPS is not on
+
+- GP	[Internal GPS - TM-D710G](/commands/GP.md)
+
+- BE	[Enable/disable BCON - TMD710G](/commands/BE.md) **When APRS is enabled**
+
+- SR	[Reset](/commands/SR.md)
+
+- PROGRAM		[0M PROGRAM : Enters MCP programming mode](/commands/0M_PROGRAM.md) (Command is: ZERO MIKE space PROGRAM)
+
+Available control commands for the **main unit**:
 
 
 - ID	[Radio Model](/commands/ID.md)
@@ -42,8 +72,6 @@ Available Control commands:
 
 - SQ	[Squelch status](/commands/SQ.md)
 
-- BL	[Backlight status](/commands/BL.md) Only when connected to the control head
-
 - BY	[Squelch open/closed](/commands/BY.md)
 
 - RX	[Receive](/commands/RX.md)
@@ -52,17 +80,7 @@ Available Control commands:
 
 - BT	[Burst tone](/commands/BT.md)
 
-- RT	[Time](/commands/RT.md)
-
-- GP	[Internal GPS - TMD710G ?](/commands/GP.md) this needs verification
-
-- GM	[Radio/GPS - TMD710G](/commands/GM.md) this needs verification
-
-- TN	[TNC status](/commands/TN.md) Only when connected to the control head
-
 - AS	[Reverse](/commands/AS.md)
-
-- CS	[Callsign](/commands/CS.md) Only when connected to the control head
 
 - SR	[Reset](/commands/SR.md)
 
@@ -78,19 +96,15 @@ Available Control commands:
 
 - TT	[Transmit tone](/commands/TT.md)
 
-- CD	[*Channel status*](/commands/CD.md)
+- CD	[Togle between memory name and channel number](/commands/CD.md)
 
 - DM	[DTMF memory](/commands/DM.md)
 
-- SS	[*S-meter squelch*](/commands/SS.md)
+- SS	[S-meter squelch](/commands/SS.md)
 
 - DT	[DTMF](/commands/DT.md)
 
 - MU	[Menu](/commands/MU.md)
-
-- TC	[TNC controll mode](/commands/TC.md)
-
-- TS	[TNC controll mode 2](/commands/TS.md)
 
 - PROGRAM		[0M PROGRAM : Enters MCP programming mode](/commands/0M_PROGRAM.md) (Command is: ZERO MIKE space PROGRAM)
 

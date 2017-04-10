@@ -28,3 +28,6 @@ returns: p1
 |6|level 6
 |7|level 7
 |8|level 8
+
+
+*Not for the TM-D710G*
