@@ -1,7 +1,7 @@
-# TM-V71 and TM-D710-Kenwood - PC RIG control commands
-RIG control commands for the Kenwood TM-V71 and TM-D710
+# TM-V71 and TM-D710(G) Kenwood - PC RIG control commands
+RIG control commands for the Kenwood TM-V71 and TM-D710(G)
 
-Reverse engineered commands for the TM-V71 and TM-D710.
+Reverse engineered commands for the TM-V71 and TM-D710(G).
 
 Thanks to: LA8OKA, W6GPS and WM8S for helping.
 
