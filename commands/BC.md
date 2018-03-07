@@ -6,7 +6,7 @@ Set PTT/CTRL band:
 
 Read the PTT/CTRL band:
 
-	BC p1
+	BC
 	
 Returns: p1,p2
 

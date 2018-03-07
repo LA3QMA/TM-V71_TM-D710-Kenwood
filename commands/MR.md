@@ -10,6 +10,8 @@ Read the memory channel:
 	
 Returns: nnn
 
+Returns: N if no memory or not in memory mode
+
 memory channel number (3 digit)
 
 [Band](/tables/band.md)

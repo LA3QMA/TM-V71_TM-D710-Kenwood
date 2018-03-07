@@ -29,3 +29,5 @@ Returns: memory channel number (3 digit)
 |14|Frequency in Hz 10 digit.
 |15|unknown need help on this
 |16|[Lock out](/tables/status.md)
+
+# 800-1300MHz not possible to set

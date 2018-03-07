@@ -19,5 +19,5 @@ returns: p1,p2
 |nnnnnn|Up to 6 characters TM-V71
 |nnnnnnnn|Up to 8 characters TM-D710
 
-# must be uppercase
+# must be uppercase for TM-V71
 
