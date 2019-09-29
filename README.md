@@ -62,4 +62,7 @@ Available control commands for the **main unit**:
 - DT	[DTMF](/commands/DT.md)
 - MU	[Menu](/commands/MU.md)
 - PROGRAM		[0M PROGRAM : Enters MCP programming mode](/commands/0M_PROGRAM.md) (Command is: ZERO MIKE space PROGRAM)
+- [Programming mode documentation](/PROGRAMMING_MODE.md)
 - SERVICE	[0G KENWOOD : Enters service mode](/commands/0G_KENWOOD.md) (Command is: ZERO GOLF space KENWOOD)
+
+
