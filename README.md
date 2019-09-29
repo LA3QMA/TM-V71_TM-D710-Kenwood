@@ -3,7 +3,7 @@ RIG control commands for the Kenwood TM-V71 and TM-D710(G)
 
 Reverse engineered commands for the TM-V71 and TM-D710(G).
 
-Thanks to: LA8OKA, W6GPS, WM8S, and Lars Kellogg-Stedman for helping.
+Thanks to: LA8OKA, W6GPS, WM8S and Lars Kellogg-Stedman for helping.
 
 Based on rev.11 02 april 2009
 
