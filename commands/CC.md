@@ -11,8 +11,8 @@ Get:
 |p|function|
 |---|---|
 |1|[Band](/tables/band.md)
-|2|Frequency in Hz 10 digit. must be within selected band
-|3|[Step size](/tables/step_size.md)
+|2|RX frequency in Hz 10 digit. Must be within selected band
+|3|[RX step size](/tables/step_size.md)
 |4|[Shift direction](/tables/shift.md)
 |5|[Reverse](/tables/status.md)
 |6|[Tone status](/tables/status.md)
@@ -21,7 +21,7 @@ Get:
 |9|[Tone frequency](/tables/tone_ctcss.md)
 |10|[CTCSS frequency](/tables/tone_ctcss.md)
 |11|[DSC frequency](/tables/DCS.md)
-|12|Offset frequency in Hz 8 digit. must be within selected band
+|12|Offset frequency in Hz 8 digit. Must be within the selected band.
 |13|[Mode](/tables/mode.md)
-|14|TX frequency in Hz 10 digit. must be within selected band
-|15|Unknown
+|14|TX frequency in Hz 10 digit. Must be within selected band
+|15|[TX step size](/tables/step_size.md)
