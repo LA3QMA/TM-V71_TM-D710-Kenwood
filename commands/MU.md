@@ -160,27 +160,27 @@ Get:
 
 |p29|PF1 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p30|PF2 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p31|Mic PF1 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p32|Mic PF2 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p33|Mic PF3 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p34|Mic PF4 key
 |---|---|
-|0-16|Check pkeys.md
+|0-16|Check [pkeys.md](../tables/pkeys.md)
 
 |p35|Mic key lock
 |---|---|
