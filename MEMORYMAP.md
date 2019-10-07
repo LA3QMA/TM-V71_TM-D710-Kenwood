@@ -27,6 +27,26 @@
 | 0x108 - 0x10F   | DTMF Memory Name CH7 - Menu 301                   |
 | 0x110 - 0x117   | DTMF Memory Name CH8 - Menu 301                   |
 | 0x118 - 0x11F   | DTMF Memory Name CH9 - Menu 301                   |
+| 0x120 - 0x127   | EchoLink Memory Name EL0 - Menu 204               |
+| 0x128 - 0x12F   | EchoLink Memory Name EL1 - Menu 204               |
+| 0x130 - 0x137   | EchoLink Memory Name EL2 - Menu 204               |
+| 0x138 - 0x13F   | EchoLink Memory Name EL3 - Menu 204               |
+| 0x140 - 0x147   | EchoLink Memory Name EL4 - Menu 204               |
+| 0x148 - 0x14F   | EchoLink Memory Name EL5 - Menu 204               |
+| 0x150 - 0x157   | EchoLink Memory Name EL6 - Menu 204               |
+| 0x158 - 0x15F   | EchoLink Memory Name EL7 - Menu 204               |
+| 0x160 - 0x167   | EchoLink Memory Name EL8 - Menu 204               |
+| 0x168 - 0x16F   | EchoLink Memory Name EL9 - Menu 204               |
+| 0x190 - 0x197   | EchoLink Memory Code EL0 - Menu 204               |
+| 0x198 - 0x19F   | EchoLink Memory Code EL1 - Menu 204               |
+| 0x1A0 - 0x1A7   | EchoLink Memory Code EL2 - Menu 204               |
+| 0x1A8 - 0x1AF   | EchoLink Memory Code EL3 - Menu 204               |
+| 0x1B0 - 0x1B7   | EchoLink Memory Code EL4 - Menu 204               |
+| 0x1B8 - 0x1BF   | EchoLink Memory Code EL5 - Menu 204               |
+| 0x1C0 - 0x1C7   | EchoLink Memory Code EL6 - Menu 204               |
+| 0x1C8 - 0x1CF   | EchoLink Memory Code EL7 - Menu 204               |
+| 0x1D0 - 0x1D7   | EchoLink Memory Code EL8 - Menu 204               |
+| 0x1D8 - 0x1DF   | EchoLink Memory Code EL9 - Menu 204               |
 | 0x170           | Repeater ID (12 characters)                       |
 | 0x201           | Band A memory/vfo mode (0=vf0, 1=memory)          |
 | 0x202           | Band A selected frequency band                    |
@@ -42,6 +62,12 @@
 | 0x350           | beep                                              |
 | 0x351           | beep volume                                       |
 | 0xE00           | Channel flags (2 bytes * 1000)                    |
+| 0x2e0           | Poweron message PM Off                            |
+| 0x4e0           | Poweron message PM 1                              |
+| 0x6e0           | Poweron message PM 2                              |
+| 0x8e0           | Poweron message PM 3                              |
+| 0x10e0          | Poweron message PM 4                              |
+| 0x12e0          | Poweron message PM 5                              |
 | 0x1700 - 0x557F | Channel memory (16 bytes * 1000)                  |
 | 0x5800 - 0x773f | Channel names (8 bytes * 1000)                    |
 | 0x77e0 - 0x782D | WX channel names                                  |
