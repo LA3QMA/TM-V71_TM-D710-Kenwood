@@ -7,6 +7,26 @@
 | 0x12            | remote id (wireless remote access code)           |
 | 0x17            | Key lock (0=disabled, 1=enabled)                  |
 | 0x21            | PC port speed (0=9600, 1=19200, 2=38400, 3=57600) |
+| 0x30 - 0x3F     | DTMF Memory Code CH0 - Menu 301                   |
+| 0x40 - 0x4F     | DTMF Memory Code CH1 - Menu 301                   |
+| 0x50 - 0x5F     | DTMF Memory Code CH2 - Menu 301                   |
+| 0x60 - 0x6F     | DTMF Memory Code CH3 - Menu 301                   |
+| 0x70 - 0x7F     | DTMF Memory Code CH4 - Menu 301                   |
+| 0x80 - 0x8F     | DTMF Memory Code CH5 - Menu 301                   |
+| 0x90 - 0x9F     | DTMF Memory Code CH6 - Menu 301                   |
+| 0xA0 - 0xAF     | DTMF Memory Code CH7 - Menu 301                   |
+| 0xB0 - 0xBF     | DTMF Memory Code CH8 - Menu 301                   |
+| 0xC0 - 0xCF     | DTMF Memory Code CH9 - Menu 301                   |
+| 0xD0 - 0xD7     | DTMF Memory Name CH0 - Menu 301                   |
+| 0xD8 - 0xDF     | DTMF Memory Name CH1 - Menu 301                   |
+| 0xE0 - 0xE7     | DTMF Memory Name CH2 - Menu 301                   |
+| 0xE8 - 0xEF     | DTMF Memory Name CH3 - Menu 301                   |
+| 0xF0 - 0xF7     | DTMF Memory Name CH4 - Menu 301                   |
+| 0xF8 - 0xFF     | DTMF Memory Name CH5 - Menu 301                   |
+| 0x100 - 0x107   | DTMF Memory Name CH6 - Menu 301                   |
+| 0x108 - 0x10F   | DTMF Memory Name CH7 - Menu 301                   |
+| 0x110 - 0x117   | DTMF Memory Name CH8 - Menu 301                   |
+| 0x118 - 0x11F   | DTMF Memory Name CH9 - Menu 301                   |
 | 0x170           | Repeater ID (12 characters)                       |
 | 0x201           | Band A memory/vfo mode (0=vf0, 1=memory)          |
 | 0x202           | Band A selected frequency band                    |
