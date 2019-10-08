@@ -2,17 +2,16 @@ __Channel status__
 
 Set:
 
-	CC p1
+	CD p1
 
 Get:
 
-	CC
+	CD
 
 returns: p1
 
-||Channel status|
-|---|---|
-|p1|function
-|0|Frequency mode
-|1|Channel mode
+| p1 | function       |
+|----|----------------|
+| 0  | Frequency mode |
+| 1  | Channel mode   |
 
