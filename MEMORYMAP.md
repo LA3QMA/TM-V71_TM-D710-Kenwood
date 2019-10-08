@@ -54,7 +54,7 @@
 | 0x20E           | Band B selected frequency band                    |
 | 0x215           | S Meter Squelch                                   |
 | 0x22E           | Currently selected menu item                      |
-| 0x2e0           | Poweron message                                   |
+| 0x2E0           | Poweron message                                   |
 | 0x232           | PTT band                                          |
 | 0x233           | Control band                                      |
 | 0x250           | Band A vfo setting (16 bytes)                     |
@@ -62,17 +62,17 @@
 | 0x350           | beep                                              |
 | 0x351           | beep volume                                       |
 | 0xE00           | Channel flags (2 bytes * 1000)                    |
-| 0x2e0           | Poweron message PM Off                            |
-| 0x4e0           | Poweron message PM 1                              |
-| 0x6e0           | Poweron message PM 2                              |
-| 0x8e0           | Poweron message PM 3                              |
-| 0x10e0          | Poweron message PM 4                              |
-| 0x12e0          | Poweron message PM 5                              |
+| 0x2E0           | Poweron message PM Off                            |
+| 0x4E0           | Poweron message PM 1                              |
+| 0x6E0           | Poweron message PM 2                              |
+| 0x8E0           | Poweron message PM 3                              |
+| 0x10E0          | Poweron message PM 4                              |
+| 0x12E0          | Poweron message PM 5                              |
 | 0x1700 - 0x557F | Channel memory (16 bytes * 1000)                  |
-| 0x5800 - 0x773f | Channel names (8 bytes * 1000)                    |
-| 0x77e0 - 0x782D | WX channel names                                  |
-| 0x7d00 - 0x7d9f | Group names (16 bytes * 8 groups)                 |
-| 0x7da0          | Program memory names (16 bytes * 5 PMs)           |
+| 0x5800 - 0x773F | Channel names (8 bytes * 1000)                    |
+| 0x77E0 - 0x782D | WX channel names                                  |
+| 0x7D00 - 0x7d9f | Group names (16 bytes * 8 groups)                 |
+| 0x7DA0          | Program memory names (16 bytes * 5 PMs)           |
 
 ## VFO format
 
