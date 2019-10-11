@@ -79,8 +79,10 @@ There are six programmable memory regions -- one used when PM is off, and then o
 |--------|------------------------------------------------------------------------|
 | 0x01   | Band A memory/vfo mode (0=vfo, 1=memory)                               |
 | 0x02   | Band A selected frequency band                                         |
+| 0x07   | Band A TX power                                                        |
 | 0x0D   | Band B memory/vfo mode                                                 |
 | 0x0E   | Band B selected frequency band                                         |
+| 0x13   | Band B TX power                                                        |
 | 0x15   | S Meter Squelch                                                        |
 | 0x2E   | Currently selected menu item                                           |
 | 0xE0   | Poweron message                                                        |
