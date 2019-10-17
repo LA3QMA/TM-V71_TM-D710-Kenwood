@@ -27,5 +27,7 @@ read:
 
 ## Exit service mode
 
+We have not yet discovered a mechanism for directly exiting service mode, but you can return to normal operation by entering and exiting programming mode.
+
 1. [Enter programming mode](PROGRAMMING_MODE.md#enter-programming-mode)
 1. [Exit programming mode](PROGRAMMING_MODE.md#exit-programming-mode)
