@@ -13,7 +13,7 @@ tracker](https://github.com/LA3QMA/TM-V71_TM-D710-Kenwood/issues).
 
 ## Additional information
 
-- [TM-D710/TM-V71 mailing list](https://groups.yahoo.com/neo/groups/TM-D710_TM-V71)
+- [TM-D710/TM-V71 mailing list](https://kenwood-radios.groups.io/g/main/messages) and (https://kenwood-radios.groups.io/g/TM-D710-and-TM-V71)
 
 ## Available control commands for the display unit
 
