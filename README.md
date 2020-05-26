@@ -15,13 +15,13 @@ tracker](https://github.com/LA3QMA/TM-V71_TM-D710-Kenwood/issues).
 
 - [TM-D710/TM-V71 mailing list](https://kenwood-radios.groups.io/g/main/messages) and (https://kenwood-radios.groups.io/g/TM-D710-and-TM-V71)
 
-## Available control commands for the display unit
+## Available control commands for the display unit (Firmware V1.03 TM-D710Gx, Firmware V2.14 TM-D710x)
 
 These commands work with the display unit on the TM-D710 (and the TM-V71 when using the RC-D710 accessory).
 
 - AE [Display serial number](/commands/AE.md) (This will display gibberish)
 - BE [Enable/disable BCON - TMD710G](/commands/BE.md) (When APRS is enabled)
-- BL [Backlight status](/commands/BL.md) (Not TH-D710G)
+- BL [Backlight status](/commands/BL.md)
 - CS [Callsign](/commands/CS.md)
 - GP [Internal GPS - TM-D710G](/commands/GP.md)
 - GT [Internal GPS](/commands/GT.md) Returns N if internal GPS is not on
@@ -34,7 +34,7 @@ These commands work with the display unit on the TM-D710 (and the TM-V71 when us
 - TY [Display Type](/commands/TY.md)
 - 0M PROGRAM [Enters MCP programming mode](PROGRAMMING_MODE.md)
 
-## Available control commands for the main unit
+## Available control commands for the main unit (Firmware V1.03 TM-D710Gx, Firmware V2.10 TM-D710x)
 
 - AE [Radio serial number](/commands/AE.md)
 - AS [Reverse](/commands/AS.md)
