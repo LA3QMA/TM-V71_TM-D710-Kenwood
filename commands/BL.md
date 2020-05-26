@@ -12,10 +12,16 @@ returns: p1
 
 # Control panel
 
-|p1|function|
+|p1|function TM-D710|
 |---|---|
 |0|yellow light
 |1|green light
+
+|p1|function TM-D710G|
+|---|---|
+|0|orange light
+|1|green light
+|2|yellow
 
 |p2|function|
 |---|---|
