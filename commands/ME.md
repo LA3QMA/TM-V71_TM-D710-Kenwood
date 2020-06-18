@@ -30,7 +30,7 @@ Returns: memory channel number (3 digit)
 |11|[DCS frequency](/tables/DCS.md)
 |12|Offset frequency in Hz 8 digit
 |13|[Mode](/tables/mode.md)
-|14|TX frequency in Hz 10 digit.
+|14|TX frequency in Hz 10 digit, or transmit freq for odd split
 |15|[TX step size](/tables/step_size.md)
 |16|[Lock out](/tables/status.md)
 
