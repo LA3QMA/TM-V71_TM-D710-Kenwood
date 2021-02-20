@@ -1,5 +1,5 @@
 # Tone - CTCSS
-
+Please check, but according to my tests these should start index 0 - same as for the D74
 | p1 | Frequency Hz |
 |----|--------------|
 | 01 | 67           |
