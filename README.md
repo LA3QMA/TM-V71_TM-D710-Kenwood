@@ -36,7 +36,7 @@ These commands work with the display unit on the TM-D710 (and the TM-V71 when us
 - 0M PROGRAM [Enters MCP programming mode](PROGRAMMING_MODE.md)
 
 ## Available control commands for the main unit
-(Firmware V1.04 TM-D710Gx, Firmware V2.11 TM-D710x)
+(Firmware V1.04 TM-D710Gx, Firmware V2.12 TM-D710x)
 
 - AE [Radio serial number](/commands/AE.md)
 - AS [Reverse](/commands/AS.md)
