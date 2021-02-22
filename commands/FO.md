@@ -22,6 +22,6 @@ Returns: memory channel number (3 digit)
 |8|[DCS status](/tables/status.md)
 |9|[Tone frequency](/tables/tone_ctcss.md)
 |10|[CTCSS frequency](/tables/tone_ctcss.md)
-|11|[DCS frequency](/tables/DCS.md)
+|11|[DCS frequency](/tables/dcs.md)
 |12|Offset frequency in Hz 8 digit
 |13|[Mode](/tables/mode.md)
