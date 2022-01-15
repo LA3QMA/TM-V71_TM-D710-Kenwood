@@ -92,6 +92,7 @@ There are six programmable memory regions -- one used when PM is off, and then o
 | 0x2E   | Currently selected menu item                                           |
 | 0x32   | PTT band (0=Band A, 1=Band B)                                          |
 | 0x33   | Control band  (0=Band A, 1=Band B)                                     |
+| 0x34   | Disable band that is not the control band (0=both band, 1=one band)    |
 | 0x40   | Band A per-frequency-band [VFO settings](#vfo-settings) (16 bytes * 5) |
 | 0x90   | Band B per-frequency-band [VFO settings](#vfo-settings) (16 bytes * 5) |
 | 0xE0   | Power on message (12 bytes)                                            |
