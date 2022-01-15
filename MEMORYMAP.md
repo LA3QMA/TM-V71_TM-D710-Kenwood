@@ -58,6 +58,9 @@ The first byte indicates the band:
 | 05    | VHF  |
 | 08    | UHF  |
 
+Experimentation has shown that setting the high bit of the Band byte
+will disable the channel, so it can be used as a disable.
+
 The second byte is a bitfield:
 
 | Bit | Description |
@@ -79,24 +82,24 @@ There are six programmable memory regions -- one used when PM is off, and then o
 | Offset | Description                                                            |
 |--------|------------------------------------------------------------------------|
 | 0x01   | Band A memory/vfo mode (0=vfo, 1=memory)                               |
-| 0x02   | Band A selected frequency band                                         |
-| 0x07   | Band A TX power                                                        |
-| 0x09   | Band A S Meter Squelch                                                 |
-| 0x0D   | Band B memory/vfo mode                                                 |
-| 0x0E   | Band B selected frequency band                                         |
-| 0x13   | Band B TX power                                                        |
-| 0x15   | Band B S Meter Squelch                                                 |
+| 0x02   | Band A selected frequency band (0=118MHz, 1=VHF, 2=220MHz, 3=340MHz, 4=UHF |
+| 0x07   | Band A TX power (0=High, 1=Medium, 2=Low)                              |
+| 0x09   | Band A S Meter Squelch (0=off, 1=on)                                   |
+| 0x0D   | Band B memory/vfo mode  (0=vfo, 1=memory)                              |
+| 0x0E   | Band B selected frequency band (0x05=VFH, 0x08=UHF)                    |
+| 0x13   | Band B TX power  (0=High, 1=Medium, 2=Low)                             |
+| 0x15   | Band B S Meter Squelch (0=off, 1=on)                                   |
 | 0x2E   | Currently selected menu item                                           |
-| 0x32   | PTT band                                                               |
-| 0x33   | Control band                                                           |
+| 0x32   | PTT band (0=Band A, 1=Band B)                                          |
+| 0x33   | Control band  (0=Band A, 1=Band B)                                     |
 | 0x40   | Band A per-frequency-band [VFO settings](#vfo-settings) (16 bytes * 5) |
 | 0x90   | Band B per-frequency-band [VFO settings](#vfo-settings) (16 bytes * 5) |
 | 0xE0   | Power on message (12 bytes)                                            |
 | 0xF0   | Group links (10 bytes)                                                 |
-| 0x150  | Beep                                                                   |
-| 0x151  | Beep volume                                                            |
-| 0x175  | Data band                                                              |
-| 0x176  | Data speed                                                             |
+| 0x150  | Beep (0=off, 1=on)                                                     |
+| 0x151  | Beep volume (0-6)                                                      |
+| 0x175  | Data band (0=Band A, 1=Band B)                                         |
+| 0x176  | Data speed (0=1200, 1=9600)                                            |
 | 0x180  | Band mask A (0=mask, 1=use)                                            |
 | 0x185  | Band mask B (0=mask, 1=use)                                            |
 
